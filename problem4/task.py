@@ -13,7 +13,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv("/content/Lipstick.csv")
+df = pd.read_csv("/home/surajkhod/Coding/DSML/problem4/Lipstick.csv")
 
 # Convert categorical features to numeric values for decision tree compatibility
 # Adjust these mappings according to your dataset

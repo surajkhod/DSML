@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("/content/House Data.csv")
+df = pd.read_csv("//home/surajkhod/Coding/DSML/datasets/House Data.csv")
 
 # Cleaning numerical columns
 df['price'] = df['price'].str.replace('[^0-9,]', '', regex=True).str.replace(',', '').astype(float)
@@ -73,4 +73,4 @@ plt.tight_layout()
 plt.show()
 
 # Save cleaned dataset
-numeric_df.to_csv("/content/Cleaned_House_Data.csv", index=False)
+numeric_df.to_csv("/home/surajkhod/Coding/DSML/problem3/Cleaned_House_Data.csv", index=False)
