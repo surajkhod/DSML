@@ -1,5 +1,11 @@
-# Perform the following operations using Python on a data set : read data
-# from different formats(like csv, xls),indexing and selecting data, sort data,
-# describe attributes of data, checking data types of each column. (Use
-# Titanic Dataset).
+ 
+num = int(input("Enter a number: "))
+ 
+sum_of_digits = 0
+ 
+while num > 0:
+    digit = num % 10   
+    sum_of_digits += digit  
+    num //= 10   
 
+print(f"The sum of the digits is: {sum_of_digits}")
